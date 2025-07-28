@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: MyBlog
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
