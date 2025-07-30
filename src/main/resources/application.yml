@@ -4,3 +4,15 @@ spring:
 
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
+    url: ENC(vd+2jGFjyR/C+kgEORK3sdVTorIKKROYL5/R6X3xYImqWGQRLMdyxDTKvgPl5b62)
+    username: ENC(cmPGJXYU5kncaoENDOnD/Q==)
+    password: ENC(PqJ9XgkxfkimB0BMi8dqNA==)
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+jwt:
+  secret: ENC(ibLjPq2XpsWE5r8R411n4UtWsJd8mbDtVCpe4lXARgTTQNCaC2vkZHGCVwJdGz3RyCEFLfVA1hju/n9o24PfskTebIwfn57LDDj3LacHvJU=)
+  expiration: 360000
